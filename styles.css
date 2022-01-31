@@ -50,16 +50,28 @@ img {
 
 h2 {
     margin: 0px;
-    font-size: 1.8em;
+    font-size: 1.7em;
 }
 
+h3 {
+    font-size: 1.55em;
+    margin-top: 5px;
+}
+
+
+ul {
+    padding: 5px;
+    background: #fff;
+    width: 150px;
+    list-style: inside;
+}
 li {
-    list-style:inside;
+    color: #000;
 }
 
 a {
     text-decoration: none;
-    color: #fff;
+    color: #000;
     font-weight: 700;
     font-size: 1.2em;
 
