@@ -60,14 +60,23 @@ img {
 
 }
 
-h2 {
-    margin: 0px;
-    font-size: 1.7em;
+h2 {   
+    margin: 5px;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #c90086;
 }
 
 h3 {
-    font-size: 1.55em;
+    margin: 0;
     margin-top: 5px;
+    font-size: 1.3em;
+}
+
+h4 {
+    text-align: center;
+    font-size: 1em;
+    margin: 5px;
 }
 
 
@@ -77,33 +86,37 @@ ul {
     width: 50%;
 }
 li {
-    color: #000;
+    color: #fff;
+    list-style: none;
 }
 
 a {
     text-decoration: none;
-    color: #000;
     font-weight: 700;
     font-size: 1.2em;
     color: #0059a1;
 }
 
-a:hover {
-    background-color: #000;
+a:visited {
+    color: #0059a1;
+}
+
+a:active {
+    color: #0059a1;
   }
 
-a:visited {
-    color: inherit;
+a:hover {
+    background-color: #000;
 }
+
+
 
 
 @media only screen and (max-width: 768px) {
 
     body {
-     
         display: flex;
     }
-
 
     .container {
         display: flex;
@@ -133,23 +146,30 @@ a:visited {
     .right-item {
         width: 320px;
         border: 5px solid #fff;
-        height: 250px;
+        height: 320px;
     }
 
     h2 {
+        font-size: 1.5em;
+    }
+
+    h3 {
         margin-top: 10px;
-        font-size: 2em;
+        font-size: 1.3em;
     }
     
-    h3 {
-        font-size: 1.8em;
+    h4 {
+        font-size: 1em;
+        margin-right: 8px;
+        margin-left: 8px;
         margin-top: 5px;
         margin-bottom: 0;
     }
-
+    
     a {
         text-decoration: none;
         font-size: 1.6em;
+        color: #0059a1;
     }
 
     a:hover {
@@ -159,5 +179,9 @@ a:visited {
     a:visited {
         color: #0059a1;
     }
+
+    a:active {
+        color: #0059a1;
+      }
 
 }
