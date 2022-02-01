@@ -13,6 +13,18 @@ body {
     font-family: 'Trebuchet MS', 
     'Lucida Sans Unicode', 'Lucida Grande', 
     'Lucida Sans', Arial, sans-serif;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
 }
 
 .container {
@@ -32,7 +44,7 @@ img {
 
 .middle-item {
     align-self: center;
-    width: 40px;
+    width: 30px;
     height: 260px;
     background-color: #fff;
     margin: 10px;
@@ -62,8 +74,7 @@ h3 {
 ul {
     padding: 5px;
     background: #fff;
-    width: 150px;
-    list-style: inside;
+    width: 50%;
 }
 li {
     color: #000;
@@ -74,7 +85,71 @@ a {
     color: #000;
     font-weight: 700;
     font-size: 1.2em;
+    color: #0059a1
+}
 
+a:hover {
+    background-color: #000;
+  }
+
+a:visited {
+    color: inherit;
 }
 
 
+@media only screen and (max-width: 768px) {
+
+    body {
+     
+        display: flex;
+    }
+
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .left-item {
+        width: 330px;
+    }
+    
+    img {
+        width: inherit;
+        height: auto;
+        vertical-align: top;
+    }
+    
+    .middle-item {
+        align-self: center;
+        width: 260px;
+        height: 20px;
+        background-color: #fff;
+        margin: 15px;
+    }
+    
+    .right-item {
+        width: 320px;
+        border: 5px solid #fff;
+        height: 250px;
+    }
+
+    h2 {
+        margin: 0px;
+        font-size: 2em;
+    }
+    
+    h3 {
+        font-size: 1.8em;
+        margin-top: 5px;
+        margin-bottom: 0;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 1.6em;
+    }
+
+}
