@@ -152,4 +152,12 @@ a:visited {
         font-size: 1.6em;
     }
 
+    a:hover {
+        background-color: #fff;
+      }
+    
+    a:visited {
+        color: inherit;
+    }
+
 }
