@@ -5,7 +5,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    background: #000;
+    background: rgb(0,0,0);
     color: #fff;
     flex-direction: row;
     display: flex;
@@ -19,7 +19,7 @@ body {
 }
 
 @keyframes fadeInAnimation {
-    0% {
+    0% {    
         opacity: 0;
     }
     100% {
@@ -40,15 +40,10 @@ img {
     width: inherit;
     height: auto;
     vertical-align: top;
+    border-radius: 50%;
 }
 
-.middle-item {
-    align-self: center;
-    width: 30px;
-    height: 300px;
-    background-color: #fff;
-    margin: 10px;
-}
+
 
 .right-item {
     display: flex;
@@ -56,9 +51,7 @@ img {
     justify-content: center;
     align-items: center;
     width: 340px;
-    border: 5px solid #fff;
-
-}
+  }
 
 h2 {   
     margin: 10px;
@@ -86,6 +79,7 @@ ul {
     padding: 5px;
     background: #fff;
     width: 50%;
+    border-radius: 1%;
 }
 
 li {
@@ -145,7 +139,6 @@ a:hover {
     
     .right-item {
         width: 320px;
-        border: 5px solid #fff;
         height: 320px;
     }
 
@@ -154,7 +147,7 @@ a:hover {
     }
 
     h3 {
-        margin-top: 10px;
+        margin-top: 20px;
         font-size: 1.3em;
     }
     
@@ -164,7 +157,7 @@ a:hover {
     }
 
     ul {
-        margin-top: 10px;
+        margin-top: 15px;
         padding: 5px;
         background: #fff;
         width: 50%;
@@ -188,3 +181,6 @@ a:hover {
         color: #0059a1;
       }
 }
+
+
+
