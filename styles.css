@@ -61,28 +61,28 @@ img {
 }
 
 h2 {   
-    margin: 5px;
+    margin: 10px;
     font-size: 2em;
     font-weight: 900;
     color: #c90086;
 }
 
 h3 {
-    margin-bottom: 5px;
-    margin-top: 0px;
     font-size: 1.3em;
     font-weight: 400;
+    margin: 0;
 }
 
 h4 {
     text-align: center;
     font-size: 1em;
-    margin: 7px;
+    margin: 2px;
     font-weight: 300;
+
 }
 
 ul {
-    margin-top: 10px;
+    margin-top: 30px;
     padding: 5px;
     background: #fff;
     width: 50%;
@@ -161,6 +161,13 @@ a:hover {
     h4 {
         font-size: 1em;
         margin: 5px;
+    }
+
+    ul {
+        margin-top: 10px;
+        padding: 5px;
+        background: #fff;
+        width: 50%;
     }
     
     a {
