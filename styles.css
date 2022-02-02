@@ -62,7 +62,7 @@ img {
 
 h2 {   
     margin: 10px;
-    font-size: 2em;
+    font-size: 2.1em;
     font-weight: 900;
     color: #c90086;
 }
@@ -82,7 +82,7 @@ h4 {
 }
 
 ul {
-    margin-top: 30px;
+    margin-top: 20px;
     padding: 5px;
     background: #fff;
     width: 50%;
